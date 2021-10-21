@@ -30,7 +30,7 @@ askWhatDemo = function() {
   top += radio('exp', "3-constant", "constant");
   top += radio('exp', "3-increasing", "increasing");
   top += "<p><strong>Experiment 4:&nbsp;&nbsp;&nbsp;</strong>";
-  top += '<a href="http://roadtriptask.herokuapp.com/exp?hitId=demo&assignmentId=demo&workerId=demo&mode=debug"><strong>click here</strong></a>';
+  top += '<a href="https://roadtrip-task-demo.netlify.app/"><strong>click here</strong></a>';
   top += ' (task demo only)';
   top += "<p>\nYou can do the experiment yourself or you can watch playbacks\nof our participants or the optimal model performing the task.";
   $('#demo-landing').html(top);
